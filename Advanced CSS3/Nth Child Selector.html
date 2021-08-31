@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth Child Selector</title>
+    <style>
+        ul li{
+            font-size: 1.5em;
+            list-style-type:lower-roman;
+        }
+        ul li:nth-child(2n){
+            color: red;
+        }
+        ul li:nth-child(2n + 1){
+
+            color: blue;
+        }
+
+        ul li:nth-child(n + 7){
+            background-color: chartreuse;
+        }
+
+       /* p{
+            color:chartreuse;
+        }
+        p:nth-child(3) {
+            background-color: darkblue;
+        }
+
+        p:first-child{
+            color: red;
+        }
+       
+       
+       p:nth-child(odd){
+           background-color: yellow;
+       }
+       p:nth-child(even){
+           background-color: red;
+       }
+       n begins from zero to forever
+       */
+
+
+
+    </style>
+
+</head>
+<body>
+    <ul>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+    </ul>
+<!-- 
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, temporibus!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, natus.</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, sint?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, aliquid.</p>
+
+
+
+-->
+
+
+
+
+</body>
+</html>

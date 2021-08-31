@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+</head>
+
+<style>
+/*h1{
+
+    color: yellow;
+    background-color: blue;
+
+}
+
+h1,#logo {
+    color: yellow;
+    background-color: blue;
+}
+
+ div #logo {
+    color: yellow;
+    background-color: blue;
+}
+
+.mid-section .second-parag {
+    color: chartreuse;
+}
+
+
+section .second-parag  {
+    color: blue;
+}
+section #primary {
+    color: chartreuse;
+}
+*/
+#primary.second-parag {
+    color: cyan;
+}
+
+li #contlink{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+ul li{
+    list-style-type: none;
+    background: tomato;
+    padding: 12px;
+    
+ 
+}
+ul li .f-link {
+    color: chartreuse;
+   padding: 12px;
+    text-decoration: none;
+    
+}
+ul li .f-link a:hover{
+    color: blue;
+    background: yellow;
+   padding: 12px;
+    text-decoration: none;
+    
+}
+
+</style>
+
+
+<body>
+
+    <header>
+        <h1>Title 1</h1>
+        <ul>
+            <li>
+                <a  id="contlink"href="#">Contacts</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+        </ul>
+        <div>
+            <h1 id="logo">Logo1</h1>
+        </div>
+        <h1 id="logo">Logo2</h1>
+    </header>
+
+    <section class="mid-section">
+
+        <p id="primary"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, dicta.</p>
+        <p id="primary" class="second-parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, harum officia eveniet porro pariatur quisquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, vero.</p>
+    </section>
+
+    
+
+    <p>Test Pargraph...</p>
+
+
+    <a href="#"> Home</a>
+    <ul>
+        <li class="f-link"><a href="#" >Link 1</a></li>
+        <li> <a href="#" id="s-link">Link 2</a> </li>
+        <li><a href="#" class="third-link">Link 3 </a></li>
+    </ul>
+    
+</body>
+</html>

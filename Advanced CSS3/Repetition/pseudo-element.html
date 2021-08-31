@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 0.1rem;
+            color: powderblue;
+        }
+        .para1::first-letter{
+            font-size: 2em;
+            color: #000;
+        }
+        .para1::before{
+            color: #000;
+            content: "The beginning of the paragraph";
+        }
+        .para1::after{
+            color: #000;
+            content: "The end of the paragraph .(?)";
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="para1">
+
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ducimus, earum voluptatum dolor sunt
+        eveniet omnis dicta tenetur reiciendis non perferendis illo quod voluptatibus! Sit voluptate velit laborum
+        minima fugiat quasi fugit. Commodi doloribus eveniet dolores nisi mollitia debitis aliquam blanditiis eligendi
+        aut natus quae vel, optio iure ea? Accusantium!
+    </p>
+</body>
+
+</html>
